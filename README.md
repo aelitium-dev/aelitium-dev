@@ -2,26 +2,25 @@
 
 Building verifiable infrastructure for AI.
 
-Creator of **AELITIUM** — a tool that proves what an LLM actually returned.
+Creator of **AELITIUM** — tamper-evident evidence bundles for LLM outputs.
 
 ## AELITIUM
 
-Cryptographic verification for AI outputs.
+Same request. Different response. Can you verify the evidence?
 
-Detect when the same request produces a different response.
+AELITIUM produces cryptographic evidence bundles for every LLM call and enables offline verification of recorded outputs — without a vendor server.
 
 ```bash
 pip install aelitium
 bash examples/drift_demo/run_demo.sh
-STATUS=CHANGED
-REQUEST_HASH=SAME
-RESPONSE_HASH=DIFFERENT
+# STATUS=CHANGED
+# REQUEST_HASH=SAME
+# RESPONSE_HASH=DIFFERENT
+```
 
-Same request. Different response.
-The model changed — not your code.
+Same request hash. Different recorded response hash. Tampering is detectable.
 
-Repository:
-https://github.com/aelitium-dev/aelitium-v3
-
-Website:
-https://aelitium.com
+- 📦 [PyPI](https://pypi.org/project/aelitium/) — `pip install aelitium`
+- 🔗 [GitHub](https://github.com/aelitium-dev/aelitium-v3)
+- 🌐 [aelitium.com](https://aelitium.com)
+- 📄 Apache 2.0
