@@ -1,26 +1,45 @@
-# Hi, I'm Catarina 👋
+# Hi, I'm Catarina Pereira de Figueiredo
 
-Building verifiable infrastructure for AI.
+Applied AI / Forward-Deployed Engineering profile based in Europe, near Paris.
 
-Creator of **AELITIUM** — tamper-evident evidence bundles for LLM outputs.
+I build production-pattern LLM workflows with a focus on decision assurance: structured outputs, deterministic validation, human escalation, audit trails, and repeatable evaluation.
 
-## AELITIUM
+## Public work
 
-Same request. Different response. Can you verify the evidence?
+### Applied AI Workflow Portfolio
 
-AELITIUM produces cryptographic evidence bundles for every LLM call and enables offline verification of recorded outputs — without a vendor server.
+Three n8n + Claude workflows showing how operational LLM systems can classify, validate, route, escalate, and leave inspectable proof.
 
-```bash
-pip install aelitium
-bash examples/drift_demo/run_demo.sh
-# STATUS=CHANGED
-# REQUEST_HASH=SAME
-# RESPONSE_HASH=DIFFERENT
-```
+- Lead intake routing
+- Email triage
+- Document review
+- SHA-256 idempotency
+- Human-review escalation
+- Lightweight evaluation notes
+- Publication checks before release
 
-Same request hash. Different recorded response hash. Tampering is detectable.
+Repository: [aelitium-dev/applied-ai-portfolio](https://github.com/aelitium-dev/applied-ai-portfolio)
 
-- 📦 [PyPI](https://pypi.org/project/aelitium/) — `pip install aelitium`
-- 🔗 [GitHub](https://github.com/aelitium-dev/aelitium-v3)
-- 🌐 [aelitium.com](https://aelitium.com)
-- 📄 Apache 2.0
+### AELITIUM
+
+Open-source evidence tooling for recorded LLM outputs.
+
+AELITIUM focuses on tamper-evident, offline-verifiable evidence bundles for AI interactions, with deterministic canonicalization and verification.
+
+Repository: [aelitium-dev/aelitium-v3](https://github.com/aelitium-dev/aelitium-v3)
+
+## Current focus
+
+- Applied AI engineering
+- Forward-deployed AI systems
+- LLM workflow reliability
+- Evaluation and audit trails
+- Decision assurance for operational workflows
+
+## Stack
+
+n8n, Claude, Python, JavaScript, PowerShell, GitHub, workflow automation, structured JSON outputs, evaluation datasets, audit-oriented design.
+
+## Languages
+
+French, English, Portuguese.
