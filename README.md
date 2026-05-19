@@ -1,8 +1,8 @@
-# Hi, I'm Catarina Pereira de Figueiredo
+# Catarina Pereira
 
-Applied AI / Forward-Deployed Engineering profile based in Europe, near Paris.
+Applied AI / Forward-Deployed Engineering profile based in the Paris area.
 
-I build production-pattern LLM workflows with a focus on decision assurance: structured outputs, deterministic validation, human escalation, audit trails, and repeatable evaluation.
+I build production-pattern LLM workflows with decision assurance: structured outputs, deterministic validation, human escalation, audit trails, and repeatable evaluation.
 
 ## Public work
 
@@ -24,7 +24,7 @@ Repository: [aelitium-dev/applied-ai-portfolio](https://github.com/aelitium-dev/
 
 Open-source evidence tooling for recorded LLM outputs.
 
-AELITIUM focuses on tamper-evident, offline-verifiable evidence bundles for AI interactions, with deterministic canonicalization and verification.
+AELITIUM generates tamper-evident, offline-verifiable evidence bundles for LLM interactions. It is designed to support auditability and record-keeping in operational AI workflows, without depending on a vendor server.
 
 Repository: [aelitium-dev/aelitium-v3](https://github.com/aelitium-dev/aelitium-v3)
 
@@ -35,6 +35,7 @@ Repository: [aelitium-dev/aelitium-v3](https://github.com/aelitium-dev/aelitium-
 - LLM workflow reliability
 - Evaluation and audit trails
 - Decision assurance for operational workflows
+- Evidence and record-keeping for AI systems
 
 ## Stack
 
